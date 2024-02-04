@@ -1,0 +1,177 @@
+header{
+    background-color: #bbbbbb;
+    padding: 20px 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+
+nav{
+    position: absolute;
+    right: 0;
+    top: 110px;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+.prodijios{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+
+}
+
+.prodijios li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 5px solid black;
+    border-radius: 10px 25px 40px 50px;
+}
+
+.prodijios h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.description{
+    font-size: 18px;
+}
+
+.precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+nav a:hover{
+    color: purple;
+    
+    
+
+}
+
+
+.prodijios li:hover h2 {
+    font-size: 33px;
+    
+}
+
+
+.prodijios li:hover{
+    border-color: purple;    
+    color: purple;
+    
+}
+
+
+.prodijios li:hover:active{
+    border-color: green;    
+    color: green;
+}
+
+footer{
+    text-align: center;
+    background: url(bg.jpg);
+    padding: 40px;
+}
+
+.copy{
+    color: white;
+    font-size: 13px;
+}
+
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 30px 0;
+    cursor: pointer;
+}
+
+
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+    background-color: purple;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer ;
+}
+
+.enviar:hover{
+    background: darkblue;
+    transform: scale(1.20);
+}
+
+.opti{
+    width: 20%;
+    font-size: 16px;
+    cursor:pointer ;
+}
+
+.field, .fieldd{
+    margin: 3% 0;
+}
+
+table{
+    margin: 40px 1px;
+}
+
+thead{
+    font-weight: bold;
+    background: plum;
+    color: white;
+
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 10px 10px;
+}
